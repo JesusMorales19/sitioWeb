@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL_API = "http://localhost:3000/api/auth";
+const URL_API = "https://sitioweb-z4g2.onrender.com/api/auth";
 export function addUser(user) {
   return axios.post(`${URL_API}/register`, user);
 }
