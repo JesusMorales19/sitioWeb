@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL_API = "http://localhost:3000/api/products";
+const URL_API = "https://sitioweb-z4g2.onrender.com/api/products";
 
 export function newProduct(data) {
   return axios.post(`${URL_API}`, data, { withCredentials: true });
